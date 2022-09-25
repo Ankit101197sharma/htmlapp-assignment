@@ -1,0 +1,46 @@
+.mainDiv{
+    width: 90%;
+    margin: auto;
+    background-color:  #0077ac;
+    /* height: 400px; */
+    background-image: url("https://rnfi.in/asset/login/images/bg.png");
+}
+.diamondIcon{
+    width: 4px;
+    height: 4px;
+    border: 10px solid transparent;
+    border-bottom-color: grey;
+    position: relative;
+    top: -10px;
+    left: 16px;
+    
+}
+.diamondIcon::after{
+    content: '';
+      position: absolute;
+      left:-10px;
+      top: 10px;
+      width: 4px;
+      height: 4px;
+      border: 10px solid transparent;
+      border-top-color: grey;
+}
+.landingDiv{
+    background-color: #fff;
+          width: 90%;
+          margin: auto;
+          padding: 20px;
+          position: relative;
+          top: 10px;
+          display: flex;
+          justify-content: space-around;
+}
+@media (max-width: 400px){
+    .landingDiv{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+    }
+}

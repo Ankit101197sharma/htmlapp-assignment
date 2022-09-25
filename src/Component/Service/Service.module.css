@@ -1,0 +1,75 @@
+h3 {
+  color: #0077ac;
+  margin-top: 10px;
+}
+img {
+  width: 60px;
+  height: 60px;
+ 
+}
+.serviceSec {
+  background-color: #f2f2f2;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 320px;
+}
+.serviceIconDiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  background-color: #fff;
+  width: 90%;
+  position: relative;
+  top: 40px;
+}
+.serviceTicketDiv {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    background-color: #fff;
+    width: 95%;
+    position: relative;
+    top: 60px;
+  }
+.icons {
+  width: 190px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 14px;
+}
+.footerDiv {
+  background-color: blue;
+  position: relative;
+  top: 90px;
+  bottom: 50px;
+}
+.footerIcons {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+@media (max-width:400px) {
+    .serviceIconDiv{
+        display: flex;
+        flex-direction: column;
+        width: calc(25%-20px);
+    }
+    .serviceTicketDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+}
