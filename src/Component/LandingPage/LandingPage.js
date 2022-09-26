@@ -59,13 +59,7 @@ const LandingPage = () => {
       </div>
       <div>
         <div
-          style={{
-            padding: "20px",
-            width:"100%",
-            display: "flex",
-            flexDirection: "row",
-            justifyContent: "space-evenly",
-          }}
+          className={classes.carouselclass}
         >
           <div
             id="carouselExampleDark"
